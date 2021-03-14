@@ -2,4 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse('<h1>Pokedex Home</h1>')
+    template = 'pokemon/home.html'
+    return render(request, template)
