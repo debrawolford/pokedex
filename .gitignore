@@ -1,6 +1,6 @@
 *.sqlite3
 *.pyc
 __pychache__
-env
+env2
 .vscode
 *.DS_STORE
