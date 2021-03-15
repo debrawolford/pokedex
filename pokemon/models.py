@@ -6,7 +6,7 @@ class Ability(models.Model):
         verbose_name_plural = 'Abilities'
     
     name = models.CharField(max_length=254)
-    description = models.CharField(max_length=1000)
+    description = models.CharField(max_length=2000)
 
     def __str__(self):
         return self.name
