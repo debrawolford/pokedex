@@ -5,17 +5,20 @@ class Ability(models.Model):
     class Meta:
         verbose_name_plural = 'Abilities'
     
-    name = models.CharField(max_length=254)
-    description = models.CharField(max_length=2000)
+    name = models.CharField(max_length=254, null=False, blank=False)
+    effect = models.CharField(max_length=2000, null=True, blank=True)
 
     def __str__(self):
         return self.name
 
 class Pokemon(models.Model):
     name = models.CharField(max_length=200, null=False, blank=False)
-    ability = models.ForeignKey('Ability', null=True, blank=True, on_delete=models.CASCADE)
-    height = models.IntegerField()
-    sprite_url = models.URLField(max_length=1024, null=True, blank=True)
+    height = models.IntegerField(null=False, blank=False)
+    sprite = models.URLField(max_length=1024, null=True, blank=True)
+    ability1 = models.CharField(max_length=200, null=True, blank=True)
+    ability2 = models.CharField(max_length=200, null=True, blank=True)
+    ability3 = models.CharField(max_length=200, null=True, blank=True)
+    ability4 = models.CharField(max_length=200, null=True, blank=True)
 
 def __str__(self):
         return self.name
