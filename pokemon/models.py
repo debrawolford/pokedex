@@ -12,6 +12,7 @@ class Ability(models.Model):
         return self.name
 
 class Pokemon(models.Model):
+    _id = models.IntegerField(null=True, blank=True)
     name = models.CharField(max_length=200, null=False, blank=False)
     height = models.IntegerField(null=False, blank=False)
     sprite = models.URLField(max_length=1024, null=True, blank=True)

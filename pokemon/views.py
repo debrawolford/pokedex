@@ -24,6 +24,7 @@ import requests
 #                 'model': 'pokemon.Pokemon',
 #                 'pk': _id,
 #                 'fields': {
+#                     '_id': _id,
 #                     'name': name,
 #                     'height': height,
 #                     'sprite': sprite
@@ -35,6 +36,7 @@ import requests
 #                 'model': 'pokemon.Pokemon',
 #                 'pk': _id,
 #                 'fields': {
+#                     '_id': _id,
 #                     'name': name,
 #                     'height': height,
 #                     'sprite': sprite,
@@ -48,6 +50,7 @@ import requests
 #                 'model': 'pokemon.Pokemon',
 #                 'pk': _id,
 #                 'fields': {
+#                     '_id': _id,
 #                     'name': name,
 #                     'height': height,
 #                     'sprite': sprite,
@@ -63,6 +66,7 @@ import requests
 #                 'model': 'pokemon.Pokemon',
 #                 'pk': _id,
 #                 'fields': {
+#                     '_id': _id,
 #                     'name': name,
 #                     'height': height,
 #                     'sprite': sprite,
@@ -80,6 +84,7 @@ import requests
 #                 'model': 'pokemon.Pokemon',
 #                 'pk': _id,
 #                 'fields': {
+#                     '_id': _id,
 #                     'name': name,
 #                     'height': height,
 #                     'sprite': sprite,

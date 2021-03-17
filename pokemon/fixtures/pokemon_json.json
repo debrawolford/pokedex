@@ -3,6 +3,7 @@
     "model": "pokemon.Pokemon",
     "pk": 1,
     "fields": {
+      "_id": 1,
       "name": "bulbasaur",
       "height": 7,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
@@ -14,6 +15,7 @@
     "model": "pokemon.Pokemon",
     "pk": 2,
     "fields": {
+      "_id": 2,
       "name": "ivysaur",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
@@ -25,6 +27,7 @@
     "model": "pokemon.Pokemon",
     "pk": 3,
     "fields": {
+      "_id": 3,
       "name": "venusaur",
       "height": 20,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
@@ -36,6 +39,7 @@
     "model": "pokemon.Pokemon",
     "pk": 5,
     "fields": {
+      "_id": 5,
       "name": "charmander",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
@@ -47,6 +51,7 @@
     "model": "pokemon.Pokemon",
     "pk": 6,
     "fields": {
+      "_id": 6,
       "name": "charmeleon",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
@@ -58,6 +63,7 @@
     "model": "pokemon.Pokemon",
     "pk": 7,
     "fields": {
+      "_id": 7,
       "name": "charizard",
       "height": 17,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
@@ -69,6 +75,7 @@
     "model": "pokemon.Pokemon",
     "pk": 10,
     "fields": {
+      "_id": 10,
       "name": "squirtle",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
@@ -80,6 +87,7 @@
     "model": "pokemon.Pokemon",
     "pk": 11,
     "fields": {
+      "_id": 11,
       "name": "wartortle",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
@@ -91,6 +99,7 @@
     "model": "pokemon.Pokemon",
     "pk": 12,
     "fields": {
+      "_id": 12,
       "name": "blastoise",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
@@ -102,6 +111,7 @@
     "model": "pokemon.Pokemon",
     "pk": 14,
     "fields": {
+      "_id": 14,
       "name": "caterpie",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
@@ -113,6 +123,7 @@
     "model": "pokemon.Pokemon",
     "pk": 15,
     "fields": {
+      "_id": 15,
       "name": "metapod",
       "height": 7,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
@@ -123,6 +134,7 @@
     "model": "pokemon.Pokemon",
     "pk": 16,
     "fields": {
+      "_id": 16,
       "name": "butterfree",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
@@ -134,6 +146,7 @@
     "model": "pokemon.Pokemon",
     "pk": 17,
     "fields": {
+      "_id": 17,
       "name": "weedle",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
@@ -145,6 +158,7 @@
     "model": "pokemon.Pokemon",
     "pk": 18,
     "fields": {
+      "_id": 18,
       "name": "kakuna",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
@@ -155,6 +169,7 @@
     "model": "pokemon.Pokemon",
     "pk": 19,
     "fields": {
+      "_id": 19,
       "name": "beedrill",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
@@ -166,6 +181,7 @@
     "model": "pokemon.Pokemon",
     "pk": 21,
     "fields": {
+      "_id": 21,
       "name": "pidgey",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
@@ -178,6 +194,7 @@
     "model": "pokemon.Pokemon",
     "pk": 22,
     "fields": {
+      "_id": 22,
       "name": "pidgeotto",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
@@ -190,6 +207,7 @@
     "model": "pokemon.Pokemon",
     "pk": 23,
     "fields": {
+      "_id": 23,
       "name": "pidgeot",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
@@ -202,6 +220,7 @@
     "model": "pokemon.Pokemon",
     "pk": 25,
     "fields": {
+      "_id": 25,
       "name": "rattata",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
@@ -214,6 +233,7 @@
     "model": "pokemon.Pokemon",
     "pk": 27,
     "fields": {
+      "_id": 27,
       "name": "raticate",
       "height": 7,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
@@ -226,6 +246,7 @@
     "model": "pokemon.Pokemon",
     "pk": 30,
     "fields": {
+      "_id": 30,
       "name": "spearow",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
@@ -237,6 +258,7 @@
     "model": "pokemon.Pokemon",
     "pk": 31,
     "fields": {
+      "_id": 31,
       "name": "fearow",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
@@ -248,6 +270,7 @@
     "model": "pokemon.Pokemon",
     "pk": 32,
     "fields": {
+      "_id": 32,
       "name": "ekans",
       "height": 20,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
@@ -260,6 +283,7 @@
     "model": "pokemon.Pokemon",
     "pk": 33,
     "fields": {
+      "_id": 33,
       "name": "arbok",
       "height": 35,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
@@ -272,6 +296,7 @@
     "model": "pokemon.Pokemon",
     "pk": 35,
     "fields": {
+      "_id": 35,
       "name": "pikachu",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
@@ -283,6 +308,7 @@
     "model": "pokemon.Pokemon",
     "pk": 49,
     "fields": {
+      "_id": 49,
       "name": "raichu",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
@@ -294,6 +320,7 @@
     "model": "pokemon.Pokemon",
     "pk": 51,
     "fields": {
+      "_id": 51,
       "name": "sandshrew",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
@@ -305,6 +332,7 @@
     "model": "pokemon.Pokemon",
     "pk": 53,
     "fields": {
+      "_id": 53,
       "name": "sandslash",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
@@ -316,6 +344,7 @@
     "model": "pokemon.Pokemon",
     "pk": 55,
     "fields": {
+      "_id": 55,
       "name": "nidoran-f",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
@@ -328,6 +357,7 @@
     "model": "pokemon.Pokemon",
     "pk": 56,
     "fields": {
+      "_id": 56,
       "name": "nidorina",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
@@ -340,6 +370,7 @@
     "model": "pokemon.Pokemon",
     "pk": 57,
     "fields": {
+      "_id": 57,
       "name": "nidoqueen",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
@@ -352,6 +383,7 @@
     "model": "pokemon.Pokemon",
     "pk": 58,
     "fields": {
+      "_id": 58,
       "name": "nidoran-m",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
@@ -364,6 +396,7 @@
     "model": "pokemon.Pokemon",
     "pk": 59,
     "fields": {
+      "_id": 59,
       "name": "nidorino",
       "height": 9,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
@@ -376,6 +409,7 @@
     "model": "pokemon.Pokemon",
     "pk": 60,
     "fields": {
+      "_id": 60,
       "name": "nidoking",
       "height": 14,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
@@ -388,6 +422,7 @@
     "model": "pokemon.Pokemon",
     "pk": 62,
     "fields": {
+      "_id": 62,
       "name": "clefairy",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
@@ -400,6 +435,7 @@
     "model": "pokemon.Pokemon",
     "pk": 63,
     "fields": {
+      "_id": 63,
       "name": "clefable",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
@@ -412,6 +448,7 @@
     "model": "pokemon.Pokemon",
     "pk": 64,
     "fields": {
+      "_id": 64,
       "name": "vulpix",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
@@ -423,6 +460,7 @@
     "model": "pokemon.Pokemon",
     "pk": 66,
     "fields": {
+      "_id": 66,
       "name": "ninetales",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
@@ -434,6 +472,7 @@
     "model": "pokemon.Pokemon",
     "pk": 69,
     "fields": {
+      "_id": 69,
       "name": "jigglypuff",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
@@ -446,6 +485,7 @@
     "model": "pokemon.Pokemon",
     "pk": 70,
     "fields": {
+      "_id": 70,
       "name": "wigglytuff",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
@@ -458,6 +498,7 @@
     "model": "pokemon.Pokemon",
     "pk": 71,
     "fields": {
+      "_id": 71,
       "name": "zubat",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
@@ -469,6 +510,7 @@
     "model": "pokemon.Pokemon",
     "pk": 72,
     "fields": {
+      "_id": 72,
       "name": "golbat",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
@@ -480,6 +522,7 @@
     "model": "pokemon.Pokemon",
     "pk": 74,
     "fields": {
+      "_id": 74,
       "name": "oddish",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
@@ -491,6 +534,7 @@
     "model": "pokemon.Pokemon",
     "pk": 75,
     "fields": {
+      "_id": 75,
       "name": "gloom",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
@@ -502,6 +546,7 @@
     "model": "pokemon.Pokemon",
     "pk": 76,
     "fields": {
+      "_id": 76,
       "name": "vileplume",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
@@ -513,6 +558,7 @@
     "model": "pokemon.Pokemon",
     "pk": 78,
     "fields": {
+      "_id": 78,
       "name": "paras",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
@@ -525,6 +571,7 @@
     "model": "pokemon.Pokemon",
     "pk": 79,
     "fields": {
+      "_id": 79,
       "name": "parasect",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
@@ -537,6 +584,7 @@
     "model": "pokemon.Pokemon",
     "pk": 80,
     "fields": {
+      "_id": 80,
       "name": "venonat",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
@@ -549,6 +597,7 @@
     "model": "pokemon.Pokemon",
     "pk": 81,
     "fields": {
+      "_id": 81,
       "name": "venomoth",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
@@ -561,6 +610,7 @@
     "model": "pokemon.Pokemon",
     "pk": 82,
     "fields": {
+      "_id": 82,
       "name": "diglett",
       "height": 2,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
@@ -573,6 +623,7 @@
     "model": "pokemon.Pokemon",
     "pk": 84,
     "fields": {
+      "_id": 84,
       "name": "dugtrio",
       "height": 7,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
@@ -585,6 +636,7 @@
     "model": "pokemon.Pokemon",
     "pk": 86,
     "fields": {
+      "_id": 86,
       "name": "meowth",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
@@ -597,6 +649,7 @@
     "model": "pokemon.Pokemon",
     "pk": 88,
     "fields": {
+      "_id": 88,
       "name": "persian",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
@@ -609,6 +662,7 @@
     "model": "pokemon.Pokemon",
     "pk": 90,
     "fields": {
+      "_id": 90,
       "name": "psyduck",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
@@ -621,6 +675,7 @@
     "model": "pokemon.Pokemon",
     "pk": 91,
     "fields": {
+      "_id": 91,
       "name": "golduck",
       "height": 17,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
@@ -633,6 +688,7 @@
     "model": "pokemon.Pokemon",
     "pk": 92,
     "fields": {
+      "_id": 92,
       "name": "mankey",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
@@ -645,6 +701,7 @@
     "model": "pokemon.Pokemon",
     "pk": 93,
     "fields": {
+      "_id": 93,
       "name": "primeape",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
@@ -657,6 +714,7 @@
     "model": "pokemon.Pokemon",
     "pk": 94,
     "fields": {
+      "_id": 94,
       "name": "growlithe",
       "height": 7,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
@@ -669,6 +727,7 @@
     "model": "pokemon.Pokemon",
     "pk": 95,
     "fields": {
+      "_id": 95,
       "name": "arcanine",
       "height": 19,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
@@ -681,6 +740,7 @@
     "model": "pokemon.Pokemon",
     "pk": 96,
     "fields": {
+      "_id": 96,
       "name": "poliwag",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
@@ -693,6 +753,7 @@
     "model": "pokemon.Pokemon",
     "pk": 97,
     "fields": {
+      "_id": 97,
       "name": "poliwhirl",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
@@ -705,6 +766,7 @@
     "model": "pokemon.Pokemon",
     "pk": 98,
     "fields": {
+      "_id": 98,
       "name": "poliwrath",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
@@ -717,6 +779,7 @@
     "model": "pokemon.Pokemon",
     "pk": 100,
     "fields": {
+      "_id": 100,
       "name": "abra",
       "height": 9,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
@@ -729,6 +792,7 @@
     "model": "pokemon.Pokemon",
     "pk": 101,
     "fields": {
+      "_id": 101,
       "name": "kadabra",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
@@ -741,6 +805,7 @@
     "model": "pokemon.Pokemon",
     "pk": 102,
     "fields": {
+      "_id": 102,
       "name": "alakazam",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
@@ -753,6 +818,7 @@
     "model": "pokemon.Pokemon",
     "pk": 104,
     "fields": {
+      "_id": 104,
       "name": "machop",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
@@ -765,6 +831,7 @@
     "model": "pokemon.Pokemon",
     "pk": 105,
     "fields": {
+      "_id": 105,
       "name": "machoke",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
@@ -777,6 +844,7 @@
     "model": "pokemon.Pokemon",
     "pk": 106,
     "fields": {
+      "_id": 106,
       "name": "machamp",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
@@ -789,6 +857,7 @@
     "model": "pokemon.Pokemon",
     "pk": 107,
     "fields": {
+      "_id": 107,
       "name": "bellsprout",
       "height": 7,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
@@ -800,6 +869,7 @@
     "model": "pokemon.Pokemon",
     "pk": 108,
     "fields": {
+      "_id": 108,
       "name": "weepinbell",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
@@ -811,6 +881,7 @@
     "model": "pokemon.Pokemon",
     "pk": 109,
     "fields": {
+      "_id": 109,
       "name": "victreebel",
       "height": 17,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
@@ -822,6 +893,7 @@
     "model": "pokemon.Pokemon",
     "pk": 110,
     "fields": {
+      "_id": 110,
       "name": "tentacool",
       "height": 9,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
@@ -834,6 +906,7 @@
     "model": "pokemon.Pokemon",
     "pk": 111,
     "fields": {
+      "_id": 111,
       "name": "tentacruel",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
@@ -846,6 +919,7 @@
     "model": "pokemon.Pokemon",
     "pk": 112,
     "fields": {
+      "_id": 112,
       "name": "geodude",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
@@ -858,6 +932,7 @@
     "model": "pokemon.Pokemon",
     "pk": 114,
     "fields": {
+      "_id": 114,
       "name": "graveler",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
@@ -870,6 +945,7 @@
     "model": "pokemon.Pokemon",
     "pk": 116,
     "fields": {
+      "_id": 116,
       "name": "golem",
       "height": 14,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
@@ -882,6 +958,7 @@
     "model": "pokemon.Pokemon",
     "pk": 118,
     "fields": {
+      "_id": 118,
       "name": "ponyta",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
@@ -894,6 +971,7 @@
     "model": "pokemon.Pokemon",
     "pk": 119,
     "fields": {
+      "_id": 119,
       "name": "rapidash",
       "height": 17,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
@@ -906,6 +984,7 @@
     "model": "pokemon.Pokemon",
     "pk": 120,
     "fields": {
+      "_id": 120,
       "name": "slowpoke",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
@@ -918,6 +997,7 @@
     "model": "pokemon.Pokemon",
     "pk": 121,
     "fields": {
+      "_id": 121,
       "name": "slowbro",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
@@ -930,6 +1010,7 @@
     "model": "pokemon.Pokemon",
     "pk": 124,
     "fields": {
+      "_id": 124,
       "name": "magnemite",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
@@ -942,6 +1023,7 @@
     "model": "pokemon.Pokemon",
     "pk": 125,
     "fields": {
+      "_id": 125,
       "name": "magneton",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
@@ -954,6 +1036,7 @@
     "model": "pokemon.Pokemon",
     "pk": 127,
     "fields": {
+      "_id": 127,
       "name": "farfetchd",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
@@ -966,6 +1049,7 @@
     "model": "pokemon.Pokemon",
     "pk": 128,
     "fields": {
+      "_id": 128,
       "name": "doduo",
       "height": 14,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
@@ -978,6 +1062,7 @@
     "model": "pokemon.Pokemon",
     "pk": 129,
     "fields": {
+      "_id": 129,
       "name": "dodrio",
       "height": 18,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
@@ -990,6 +1075,7 @@
     "model": "pokemon.Pokemon",
     "pk": 130,
     "fields": {
+      "_id": 130,
       "name": "seel",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
@@ -1002,6 +1088,7 @@
     "model": "pokemon.Pokemon",
     "pk": 131,
     "fields": {
+      "_id": 131,
       "name": "dewgong",
       "height": 17,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
@@ -1014,6 +1101,7 @@
     "model": "pokemon.Pokemon",
     "pk": 132,
     "fields": {
+      "_id": 132,
       "name": "grimer",
       "height": 9,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
@@ -1026,6 +1114,7 @@
     "model": "pokemon.Pokemon",
     "pk": 134,
     "fields": {
+      "_id": 134,
       "name": "muk",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
@@ -1038,6 +1127,7 @@
     "model": "pokemon.Pokemon",
     "pk": 136,
     "fields": {
+      "_id": 136,
       "name": "shellder",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
@@ -1050,6 +1140,7 @@
     "model": "pokemon.Pokemon",
     "pk": 137,
     "fields": {
+      "_id": 137,
       "name": "cloyster",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
@@ -1062,6 +1153,7 @@
     "model": "pokemon.Pokemon",
     "pk": 138,
     "fields": {
+      "_id": 138,
       "name": "gastly",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
@@ -1072,6 +1164,7 @@
     "model": "pokemon.Pokemon",
     "pk": 139,
     "fields": {
+      "_id": 139,
       "name": "haunter",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
@@ -1082,6 +1175,7 @@
     "model": "pokemon.Pokemon",
     "pk": 140,
     "fields": {
+      "_id": 140,
       "name": "gengar",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
@@ -1092,6 +1186,7 @@
     "model": "pokemon.Pokemon",
     "pk": 142,
     "fields": {
+      "_id": 142,
       "name": "onix",
       "height": 88,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
@@ -1104,6 +1199,7 @@
     "model": "pokemon.Pokemon",
     "pk": 145,
     "fields": {
+      "_id": 145,
       "name": "drowzee",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
@@ -1116,6 +1212,7 @@
     "model": "pokemon.Pokemon",
     "pk": 146,
     "fields": {
+      "_id": 146,
       "name": "hypno",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
@@ -1128,6 +1225,7 @@
     "model": "pokemon.Pokemon",
     "pk": 147,
     "fields": {
+      "_id": 147,
       "name": "krabby",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
@@ -1140,6 +1238,7 @@
     "model": "pokemon.Pokemon",
     "pk": 148,
     "fields": {
+      "_id": 148,
       "name": "kingler",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
@@ -1152,6 +1251,7 @@
     "model": "pokemon.Pokemon",
     "pk": 149,
     "fields": {
+      "_id": 149,
       "name": "voltorb",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
@@ -1164,6 +1264,7 @@
     "model": "pokemon.Pokemon",
     "pk": 150,
     "fields": {
+      "_id": 150,
       "name": "electrode",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
@@ -1176,6 +1277,7 @@
     "model": "pokemon.Pokemon",
     "pk": 151,
     "fields": {
+      "_id": 151,
       "name": "exeggcute",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
@@ -1187,6 +1289,7 @@
     "model": "pokemon.Pokemon",
     "pk": 152,
     "fields": {
+      "_id": 152,
       "name": "exeggutor",
       "height": 20,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
@@ -1198,6 +1301,7 @@
     "model": "pokemon.Pokemon",
     "pk": 154,
     "fields": {
+      "_id": 154,
       "name": "cubone",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
@@ -1210,6 +1314,7 @@
     "model": "pokemon.Pokemon",
     "pk": 155,
     "fields": {
+      "_id": 155,
       "name": "marowak",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
@@ -1222,6 +1327,7 @@
     "model": "pokemon.Pokemon",
     "pk": 159,
     "fields": {
+      "_id": 159,
       "name": "hitmonlee",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
@@ -1234,6 +1340,7 @@
     "model": "pokemon.Pokemon",
     "pk": 160,
     "fields": {
+      "_id": 160,
       "name": "hitmonchan",
       "height": 14,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
@@ -1246,6 +1353,7 @@
     "model": "pokemon.Pokemon",
     "pk": 162,
     "fields": {
+      "_id": 162,
       "name": "lickitung",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
@@ -1258,6 +1366,7 @@
     "model": "pokemon.Pokemon",
     "pk": 164,
     "fields": {
+      "_id": 164,
       "name": "koffing",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
@@ -1268,6 +1377,7 @@
     "model": "pokemon.Pokemon",
     "pk": 165,
     "fields": {
+      "_id": 165,
       "name": "weezing",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
@@ -1278,6 +1388,7 @@
     "model": "pokemon.Pokemon",
     "pk": 166,
     "fields": {
+      "_id": 166,
       "name": "rhyhorn",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
@@ -1290,6 +1401,7 @@
     "model": "pokemon.Pokemon",
     "pk": 167,
     "fields": {
+      "_id": 167,
       "name": "rhydon",
       "height": 19,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
@@ -1302,6 +1414,7 @@
     "model": "pokemon.Pokemon",
     "pk": 170,
     "fields": {
+      "_id": 170,
       "name": "chansey",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
@@ -1314,6 +1427,7 @@
     "model": "pokemon.Pokemon",
     "pk": 172,
     "fields": {
+      "_id": 172,
       "name": "tangela",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
@@ -1326,6 +1440,7 @@
     "model": "pokemon.Pokemon",
     "pk": 174,
     "fields": {
+      "_id": 174,
       "name": "kangaskhan",
       "height": 22,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
@@ -1338,6 +1453,7 @@
     "model": "pokemon.Pokemon",
     "pk": 176,
     "fields": {
+      "_id": 176,
       "name": "horsea",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
@@ -1350,6 +1466,7 @@
     "model": "pokemon.Pokemon",
     "pk": 177,
     "fields": {
+      "_id": 177,
       "name": "seadra",
       "height": 12,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
@@ -1362,6 +1479,7 @@
     "model": "pokemon.Pokemon",
     "pk": 179,
     "fields": {
+      "_id": 179,
       "name": "goldeen",
       "height": 6,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
@@ -1374,6 +1492,7 @@
     "model": "pokemon.Pokemon",
     "pk": 180,
     "fields": {
+      "_id": 180,
       "name": "seaking",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
@@ -1386,6 +1505,7 @@
     "model": "pokemon.Pokemon",
     "pk": 181,
     "fields": {
+      "_id": 181,
       "name": "staryu",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
@@ -1398,6 +1518,7 @@
     "model": "pokemon.Pokemon",
     "pk": 182,
     "fields": {
+      "_id": 182,
       "name": "starmie",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
@@ -1410,6 +1531,7 @@
     "model": "pokemon.Pokemon",
     "pk": 184,
     "fields": {
+      "_id": 184,
       "name": "mr-mime",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
@@ -1422,6 +1544,7 @@
     "model": "pokemon.Pokemon",
     "pk": 185,
     "fields": {
+      "_id": 185,
       "name": "scyther",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
@@ -1434,6 +1557,7 @@
     "model": "pokemon.Pokemon",
     "pk": 189,
     "fields": {
+      "_id": 189,
       "name": "jynx",
       "height": 14,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
@@ -1446,6 +1570,7 @@
     "model": "pokemon.Pokemon",
     "pk": 191,
     "fields": {
+      "_id": 191,
       "name": "electabuzz",
       "height": 11,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
@@ -1457,6 +1582,7 @@
     "model": "pokemon.Pokemon",
     "pk": 194,
     "fields": {
+      "_id": 194,
       "name": "magmar",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
@@ -1468,6 +1594,7 @@
     "model": "pokemon.Pokemon",
     "pk": 196,
     "fields": {
+      "_id": 196,
       "name": "pinsir",
       "height": 15,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
@@ -1480,6 +1607,7 @@
     "model": "pokemon.Pokemon",
     "pk": 198,
     "fields": {
+      "_id": 198,
       "name": "tauros",
       "height": 14,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
@@ -1492,6 +1620,7 @@
     "model": "pokemon.Pokemon",
     "pk": 199,
     "fields": {
+      "_id": 199,
       "name": "magikarp",
       "height": 9,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
@@ -1503,6 +1632,7 @@
     "model": "pokemon.Pokemon",
     "pk": 200,
     "fields": {
+      "_id": 200,
       "name": "gyarados",
       "height": 65,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
@@ -1514,6 +1644,7 @@
     "model": "pokemon.Pokemon",
     "pk": 202,
     "fields": {
+      "_id": 202,
       "name": "lapras",
       "height": 25,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
@@ -1526,6 +1657,7 @@
     "model": "pokemon.Pokemon",
     "pk": 203,
     "fields": {
+      "_id": 203,
       "name": "ditto",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
@@ -1537,6 +1669,7 @@
     "model": "pokemon.Pokemon",
     "pk": 204,
     "fields": {
+      "_id": 204,
       "name": "eevee",
       "height": 3,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
@@ -1549,6 +1682,7 @@
     "model": "pokemon.Pokemon",
     "pk": 205,
     "fields": {
+      "_id": 205,
       "name": "vaporeon",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
@@ -1560,6 +1694,7 @@
     "model": "pokemon.Pokemon",
     "pk": 206,
     "fields": {
+      "_id": 206,
       "name": "jolteon",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
@@ -1571,6 +1706,7 @@
     "model": "pokemon.Pokemon",
     "pk": 207,
     "fields": {
+      "_id": 207,
       "name": "flareon",
       "height": 9,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
@@ -1582,6 +1718,7 @@
     "model": "pokemon.Pokemon",
     "pk": 213,
     "fields": {
+      "_id": 213,
       "name": "porygon",
       "height": 8,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
@@ -1594,6 +1731,7 @@
     "model": "pokemon.Pokemon",
     "pk": 216,
     "fields": {
+      "_id": 216,
       "name": "omanyte",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
@@ -1606,6 +1744,7 @@
     "model": "pokemon.Pokemon",
     "pk": 217,
     "fields": {
+      "_id": 217,
       "name": "omastar",
       "height": 10,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
@@ -1618,6 +1757,7 @@
     "model": "pokemon.Pokemon",
     "pk": 218,
     "fields": {
+      "_id": 218,
       "name": "kabuto",
       "height": 5,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
@@ -1630,6 +1770,7 @@
     "model": "pokemon.Pokemon",
     "pk": 219,
     "fields": {
+      "_id": 219,
       "name": "kabutops",
       "height": 13,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
@@ -1642,6 +1783,7 @@
     "model": "pokemon.Pokemon",
     "pk": 220,
     "fields": {
+      "_id": 220,
       "name": "aerodactyl",
       "height": 18,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
@@ -1654,6 +1796,7 @@
     "model": "pokemon.Pokemon",
     "pk": 223,
     "fields": {
+      "_id": 223,
       "name": "snorlax",
       "height": 21,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
@@ -1666,6 +1809,7 @@
     "model": "pokemon.Pokemon",
     "pk": 224,
     "fields": {
+      "_id": 224,
       "name": "articuno",
       "height": 17,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
@@ -1677,6 +1821,7 @@
     "model": "pokemon.Pokemon",
     "pk": 225,
     "fields": {
+      "_id": 225,
       "name": "zapdos",
       "height": 16,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
@@ -1688,6 +1833,7 @@
     "model": "pokemon.Pokemon",
     "pk": 226,
     "fields": {
+      "_id": 226,
       "name": "moltres",
       "height": 20,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
@@ -1699,6 +1845,7 @@
     "model": "pokemon.Pokemon",
     "pk": 227,
     "fields": {
+      "_id": 227,
       "name": "dratini",
       "height": 18,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
@@ -1710,6 +1857,7 @@
     "model": "pokemon.Pokemon",
     "pk": 228,
     "fields": {
+      "_id": 228,
       "name": "dragonair",
       "height": 40,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
@@ -1721,6 +1869,7 @@
     "model": "pokemon.Pokemon",
     "pk": 229,
     "fields": {
+      "_id": 229,
       "name": "dragonite",
       "height": 22,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
@@ -1732,6 +1881,7 @@
     "model": "pokemon.Pokemon",
     "pk": 230,
     "fields": {
+      "_id": 230,
       "name": "mewtwo",
       "height": 20,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
@@ -1743,6 +1893,7 @@
     "model": "pokemon.Pokemon",
     "pk": 233,
     "fields": {
+      "_id": 233,
       "name": "mew",
       "height": 4,
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
