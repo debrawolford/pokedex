@@ -6,6 +6,7 @@ import requests
 
 offset = 0
 limit = 20
+results = []
 
 while offset <= 140:
     response = requests.get(f'https://pokeapi.co/api/v2/pokemon/?limit={limit}&offset={offset}')
@@ -19,33 +20,81 @@ while offset <= 140:
         _id = res_json["order"]
         sprite = res_json["sprites"]["front_default"]
         if len(res_json["abilities"]) == 0:
-            print(name, height, _id, sprite)
+            data = {
+                'name': name,
+                'height': height,
+                '_id': _id,
+                'sprite': sprite
+            }
         elif len(res_json["abilities"]) == 1:
             ability1 = res_json["abilities"][0]["ability"]["name"]
-            print(name, height, _id, sprite, ability1)
+            data = {
+                'name': name,
+                'height': height,
+                '_id': _id,
+                'sprite': sprite,
+                'abilities': {
+                    'ability1': ability1
+                }
+            }
         elif len(res_json["abilities"]) == 2:
             ability1 = res_json["abilities"][0]["ability"]["name"]
             ability2 = res_json["abilities"][1]["ability"]["name"]
-            print(name, height, _id, sprite, ability1, ability2)
+            data = {
+                'name': name,
+                'height': height,
+                '_id': _id,
+                'sprite': sprite,
+                'abilities': {
+                    'ability1': ability1,
+                    'ability2': ability2
+                }
+            }
         elif len(res_json["abilities"]) == 3:
             ability1 = res_json["abilities"][0]["ability"]["name"]
             ability2 = res_json["abilities"][1]["ability"]["name"]
             ability3 = res_json["abilities"][2]["ability"]["name"]
-            print(name, height, _id, sprite, ability1, ability2, ability3)
+            data = {
+                'name': name,
+                'height': height,
+                '_id': _id,
+                'sprite': sprite,
+                'abilities': {
+                    'ability1': ability1,
+                    'ability2': ability2,
+                    'ability3': ability3
+                }
+            }
         elif len(res_json["abilities"]) == 4:
             ability1 = res_json["abilities"][0]["ability"]["name"]
             ability2 = res_json["abilities"][1]["ability"]["name"]
             ability3 = res_json["abilities"][2]["ability"]["name"]
             ability4 = res_json["abilities"][2]["ability"]["name"]
-            print(name, height, _id, sprite, ability1, ability2, ability4)
+            data = {
+                'name': name,
+                'height': height,
+                '_id': _id,
+                'sprite': sprite,
+                'abilities': {
+                    'ability1': ability1,
+                    'ability2': ability2,
+                    'ability3': ability3,
+                    'ability4': ability4
+                }
+            }
+        results.append(data)
     if offset < 120:
         offset += 20
     else:
         limit = 11
         offset += 20
+    if len(results) == 151:
+        with open('pokemon_json.json', 'w') as f:
+            json.dump(results, f, indent=2)
 
 response_a = requests.get('https://pokeapi.co/api/v2/ability')
 response_a_json = response_a.json()
+results_abilities = []
 
 for a in response_a_json["results"]:
     ability = a["name"]
@@ -53,11 +102,15 @@ for a in response_a_json["results"]:
     res = requests.get(f'{url}')
     res_json = res.json()
     description = res_json["effect_entries"][1]["effect"]
-    print(ability, description)
+    data = {
+        'ability': ability,
+        'description': description
+        }
+    results_abilities.append(data)
 
-
-
-
+with open('abilities_json.json', 'w') as f:
+    json.dump(results_abilities, f, indent=2)
+    
 
 def home(request):
     template = 'pokemon/home.html'

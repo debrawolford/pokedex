@@ -1,0 +1,1601 @@
+[
+  {
+    "name": "bulbasaur",
+    "height": 7,
+    "_id": 1,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "abilities": {
+      "ability1": "overgrow",
+      "ability2": "chlorophyll"
+    }
+  },
+  {
+    "name": "ivysaur",
+    "height": 10,
+    "_id": 2,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "abilities": {
+      "ability1": "overgrow",
+      "ability2": "chlorophyll"
+    }
+  },
+  {
+    "name": "venusaur",
+    "height": 20,
+    "_id": 3,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "abilities": {
+      "ability1": "overgrow",
+      "ability2": "chlorophyll"
+    }
+  },
+  {
+    "name": "charmander",
+    "height": 6,
+    "_id": 5,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "abilities": {
+      "ability1": "blaze",
+      "ability2": "solar-power"
+    }
+  },
+  {
+    "name": "charmeleon",
+    "height": 11,
+    "_id": 6,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "abilities": {
+      "ability1": "blaze",
+      "ability2": "solar-power"
+    }
+  },
+  {
+    "name": "charizard",
+    "height": 17,
+    "_id": 7,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "abilities": {
+      "ability1": "blaze",
+      "ability2": "solar-power"
+    }
+  },
+  {
+    "name": "squirtle",
+    "height": 5,
+    "_id": 10,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "abilities": {
+      "ability1": "torrent",
+      "ability2": "rain-dish"
+    }
+  },
+  {
+    "name": "wartortle",
+    "height": 10,
+    "_id": 11,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "abilities": {
+      "ability1": "torrent",
+      "ability2": "rain-dish"
+    }
+  },
+  {
+    "name": "blastoise",
+    "height": 16,
+    "_id": 12,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "abilities": {
+      "ability1": "torrent",
+      "ability2": "rain-dish"
+    }
+  },
+  {
+    "name": "caterpie",
+    "height": 3,
+    "_id": 14,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "abilities": {
+      "ability1": "shield-dust",
+      "ability2": "run-away"
+    }
+  },
+  {
+    "name": "metapod",
+    "height": 7,
+    "_id": 15,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "abilities": {
+      "ability1": "shed-skin"
+    }
+  },
+  {
+    "name": "butterfree",
+    "height": 11,
+    "_id": 16,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "abilities": {
+      "ability1": "compound-eyes",
+      "ability2": "tinted-lens"
+    }
+  },
+  {
+    "name": "weedle",
+    "height": 3,
+    "_id": 17,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "abilities": {
+      "ability1": "shield-dust",
+      "ability2": "run-away"
+    }
+  },
+  {
+    "name": "kakuna",
+    "height": 6,
+    "_id": 18,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "abilities": {
+      "ability1": "shed-skin"
+    }
+  },
+  {
+    "name": "beedrill",
+    "height": 10,
+    "_id": 19,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "abilities": {
+      "ability1": "swarm",
+      "ability2": "sniper"
+    }
+  },
+  {
+    "name": "pidgey",
+    "height": 3,
+    "_id": 21,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "tangled-feet",
+      "ability3": "big-pecks"
+    }
+  },
+  {
+    "name": "pidgeotto",
+    "height": 11,
+    "_id": 22,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "tangled-feet",
+      "ability3": "big-pecks"
+    }
+  },
+  {
+    "name": "pidgeot",
+    "height": 15,
+    "_id": 23,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "tangled-feet",
+      "ability3": "big-pecks"
+    }
+  },
+  {
+    "name": "rattata",
+    "height": 3,
+    "_id": 25,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "guts",
+      "ability3": "hustle"
+    }
+  },
+  {
+    "name": "raticate",
+    "height": 7,
+    "_id": 27,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "guts",
+      "ability3": "hustle"
+    }
+  },
+  {
+    "name": "spearow",
+    "height": 3,
+    "_id": 30,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "sniper"
+    }
+  },
+  {
+    "name": "fearow",
+    "height": 12,
+    "_id": 31,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "sniper"
+    }
+  },
+  {
+    "name": "ekans",
+    "height": 20,
+    "_id": 32,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "abilities": {
+      "ability1": "intimidate",
+      "ability2": "shed-skin",
+      "ability3": "unnerve"
+    }
+  },
+  {
+    "name": "arbok",
+    "height": 35,
+    "_id": 33,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+    "abilities": {
+      "ability1": "intimidate",
+      "ability2": "shed-skin",
+      "ability3": "unnerve"
+    }
+  },
+  {
+    "name": "pikachu",
+    "height": 4,
+    "_id": 35,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "abilities": {
+      "ability1": "static",
+      "ability2": "lightning-rod"
+    }
+  },
+  {
+    "name": "raichu",
+    "height": 8,
+    "_id": 49,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "abilities": {
+      "ability1": "static",
+      "ability2": "lightning-rod"
+    }
+  },
+  {
+    "name": "sandshrew",
+    "height": 6,
+    "_id": 51,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "abilities": {
+      "ability1": "sand-veil",
+      "ability2": "sand-rush"
+    }
+  },
+  {
+    "name": "sandslash",
+    "height": 10,
+    "_id": 53,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+    "abilities": {
+      "ability1": "sand-veil",
+      "ability2": "sand-rush"
+    }
+  },
+  {
+    "name": "nidoran-f",
+    "height": 4,
+    "_id": 55,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "rivalry",
+      "ability3": "hustle"
+    }
+  },
+  {
+    "name": "nidorina",
+    "height": 8,
+    "_id": 56,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "rivalry",
+      "ability3": "hustle"
+    }
+  },
+  {
+    "name": "nidoqueen",
+    "height": 13,
+    "_id": 57,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "rivalry",
+      "ability3": "sheer-force"
+    }
+  },
+  {
+    "name": "nidoran-m",
+    "height": 5,
+    "_id": 58,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "rivalry",
+      "ability3": "hustle"
+    }
+  },
+  {
+    "name": "nidorino",
+    "height": 9,
+    "_id": 59,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "rivalry",
+      "ability3": "hustle"
+    }
+  },
+  {
+    "name": "nidoking",
+    "height": 14,
+    "_id": 60,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "rivalry",
+      "ability3": "sheer-force"
+    }
+  },
+  {
+    "name": "clefairy",
+    "height": 6,
+    "_id": 62,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "abilities": {
+      "ability1": "cute-charm",
+      "ability2": "magic-guard",
+      "ability3": "friend-guard"
+    }
+  },
+  {
+    "name": "clefable",
+    "height": 13,
+    "_id": 63,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "abilities": {
+      "ability1": "cute-charm",
+      "ability2": "magic-guard",
+      "ability3": "unaware"
+    }
+  },
+  {
+    "name": "vulpix",
+    "height": 6,
+    "_id": 64,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "abilities": {
+      "ability1": "flash-fire",
+      "ability2": "drought"
+    }
+  },
+  {
+    "name": "ninetales",
+    "height": 11,
+    "_id": 66,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "abilities": {
+      "ability1": "flash-fire",
+      "ability2": "drought"
+    }
+  },
+  {
+    "name": "jigglypuff",
+    "height": 5,
+    "_id": 69,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "abilities": {
+      "ability1": "cute-charm",
+      "ability2": "competitive",
+      "ability3": "friend-guard"
+    }
+  },
+  {
+    "name": "wigglytuff",
+    "height": 10,
+    "_id": 70,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "abilities": {
+      "ability1": "cute-charm",
+      "ability2": "competitive",
+      "ability3": "frisk"
+    }
+  },
+  {
+    "name": "zubat",
+    "height": 8,
+    "_id": 71,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "abilities": {
+      "ability1": "inner-focus",
+      "ability2": "infiltrator"
+    }
+  },
+  {
+    "name": "golbat",
+    "height": 16,
+    "_id": 72,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "abilities": {
+      "ability1": "inner-focus",
+      "ability2": "infiltrator"
+    }
+  },
+  {
+    "name": "oddish",
+    "height": 5,
+    "_id": 74,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "run-away"
+    }
+  },
+  {
+    "name": "gloom",
+    "height": 8,
+    "_id": 75,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "stench"
+    }
+  },
+  {
+    "name": "vileplume",
+    "height": 12,
+    "_id": 76,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "effect-spore"
+    }
+  },
+  {
+    "name": "paras",
+    "height": 3,
+    "_id": 78,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "abilities": {
+      "ability1": "effect-spore",
+      "ability2": "dry-skin",
+      "ability3": "damp"
+    }
+  },
+  {
+    "name": "parasect",
+    "height": 10,
+    "_id": 79,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+    "abilities": {
+      "ability1": "effect-spore",
+      "ability2": "dry-skin",
+      "ability3": "damp"
+    }
+  },
+  {
+    "name": "venonat",
+    "height": 10,
+    "_id": 80,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "abilities": {
+      "ability1": "compound-eyes",
+      "ability2": "tinted-lens",
+      "ability3": "run-away"
+    }
+  },
+  {
+    "name": "venomoth",
+    "height": 15,
+    "_id": 81,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+    "abilities": {
+      "ability1": "shield-dust",
+      "ability2": "tinted-lens",
+      "ability3": "wonder-skin"
+    }
+  },
+  {
+    "name": "diglett",
+    "height": 2,
+    "_id": 82,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+    "abilities": {
+      "ability1": "sand-veil",
+      "ability2": "arena-trap",
+      "ability3": "sand-force"
+    }
+  },
+  {
+    "name": "dugtrio",
+    "height": 7,
+    "_id": 84,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "abilities": {
+      "ability1": "sand-veil",
+      "ability2": "arena-trap",
+      "ability3": "sand-force"
+    }
+  },
+  {
+    "name": "meowth",
+    "height": 4,
+    "_id": 86,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "abilities": {
+      "ability1": "pickup",
+      "ability2": "technician",
+      "ability3": "unnerve"
+    }
+  },
+  {
+    "name": "persian",
+    "height": 10,
+    "_id": 88,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+    "abilities": {
+      "ability1": "limber",
+      "ability2": "technician",
+      "ability3": "unnerve"
+    }
+  },
+  {
+    "name": "psyduck",
+    "height": 8,
+    "_id": 90,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "abilities": {
+      "ability1": "damp",
+      "ability2": "cloud-nine",
+      "ability3": "swift-swim"
+    }
+  },
+  {
+    "name": "golduck",
+    "height": 17,
+    "_id": 91,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+    "abilities": {
+      "ability1": "damp",
+      "ability2": "cloud-nine",
+      "ability3": "swift-swim"
+    }
+  },
+  {
+    "name": "mankey",
+    "height": 5,
+    "_id": 92,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "abilities": {
+      "ability1": "vital-spirit",
+      "ability2": "anger-point",
+      "ability3": "defiant"
+    }
+  },
+  {
+    "name": "primeape",
+    "height": 10,
+    "_id": 93,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+    "abilities": {
+      "ability1": "vital-spirit",
+      "ability2": "anger-point",
+      "ability3": "defiant"
+    }
+  },
+  {
+    "name": "growlithe",
+    "height": 7,
+    "_id": 94,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "abilities": {
+      "ability1": "intimidate",
+      "ability2": "flash-fire",
+      "ability3": "justified"
+    }
+  },
+  {
+    "name": "arcanine",
+    "height": 19,
+    "_id": 95,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+    "abilities": {
+      "ability1": "intimidate",
+      "ability2": "flash-fire",
+      "ability3": "justified"
+    }
+  },
+  {
+    "name": "poliwag",
+    "height": 6,
+    "_id": 96,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "abilities": {
+      "ability1": "water-absorb",
+      "ability2": "damp",
+      "ability3": "swift-swim"
+    }
+  },
+  {
+    "name": "poliwhirl",
+    "height": 10,
+    "_id": 97,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+    "abilities": {
+      "ability1": "water-absorb",
+      "ability2": "damp",
+      "ability3": "swift-swim"
+    }
+  },
+  {
+    "name": "poliwrath",
+    "height": 13,
+    "_id": 98,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+    "abilities": {
+      "ability1": "water-absorb",
+      "ability2": "damp",
+      "ability3": "swift-swim"
+    }
+  },
+  {
+    "name": "abra",
+    "height": 9,
+    "_id": 100,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "abilities": {
+      "ability1": "synchronize",
+      "ability2": "inner-focus",
+      "ability3": "magic-guard"
+    }
+  },
+  {
+    "name": "kadabra",
+    "height": 13,
+    "_id": 101,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "abilities": {
+      "ability1": "synchronize",
+      "ability2": "inner-focus",
+      "ability3": "magic-guard"
+    }
+  },
+  {
+    "name": "alakazam",
+    "height": 15,
+    "_id": 102,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "abilities": {
+      "ability1": "synchronize",
+      "ability2": "inner-focus",
+      "ability3": "magic-guard"
+    }
+  },
+  {
+    "name": "machop",
+    "height": 8,
+    "_id": 104,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "abilities": {
+      "ability1": "guts",
+      "ability2": "no-guard",
+      "ability3": "steadfast"
+    }
+  },
+  {
+    "name": "machoke",
+    "height": 15,
+    "_id": 105,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+    "abilities": {
+      "ability1": "guts",
+      "ability2": "no-guard",
+      "ability3": "steadfast"
+    }
+  },
+  {
+    "name": "machamp",
+    "height": 16,
+    "_id": 106,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "abilities": {
+      "ability1": "guts",
+      "ability2": "no-guard",
+      "ability3": "steadfast"
+    }
+  },
+  {
+    "name": "bellsprout",
+    "height": 7,
+    "_id": 107,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "gluttony"
+    }
+  },
+  {
+    "name": "weepinbell",
+    "height": 10,
+    "_id": 108,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "gluttony"
+    }
+  },
+  {
+    "name": "victreebel",
+    "height": 17,
+    "_id": 109,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "gluttony"
+    }
+  },
+  {
+    "name": "tentacool",
+    "height": 9,
+    "_id": 110,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "abilities": {
+      "ability1": "clear-body",
+      "ability2": "liquid-ooze",
+      "ability3": "rain-dish"
+    }
+  },
+  {
+    "name": "tentacruel",
+    "height": 16,
+    "_id": 111,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "abilities": {
+      "ability1": "clear-body",
+      "ability2": "liquid-ooze",
+      "ability3": "rain-dish"
+    }
+  },
+  {
+    "name": "geodude",
+    "height": 4,
+    "_id": 112,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "sturdy",
+      "ability3": "sand-veil"
+    }
+  },
+  {
+    "name": "graveler",
+    "height": 10,
+    "_id": 114,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "sturdy",
+      "ability3": "sand-veil"
+    }
+  },
+  {
+    "name": "golem",
+    "height": 14,
+    "_id": 116,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "sturdy",
+      "ability3": "sand-veil"
+    }
+  },
+  {
+    "name": "ponyta",
+    "height": 10,
+    "_id": 118,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "flash-fire",
+      "ability3": "flame-body"
+    }
+  },
+  {
+    "name": "rapidash",
+    "height": 17,
+    "_id": 119,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "flash-fire",
+      "ability3": "flame-body"
+    }
+  },
+  {
+    "name": "slowpoke",
+    "height": 12,
+    "_id": 120,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "abilities": {
+      "ability1": "oblivious",
+      "ability2": "own-tempo",
+      "ability3": "regenerator"
+    }
+  },
+  {
+    "name": "slowbro",
+    "height": 16,
+    "_id": 121,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+    "abilities": {
+      "ability1": "oblivious",
+      "ability2": "own-tempo",
+      "ability3": "regenerator"
+    }
+  },
+  {
+    "name": "magnemite",
+    "height": 3,
+    "_id": 124,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "abilities": {
+      "ability1": "magnet-pull",
+      "ability2": "sturdy",
+      "ability3": "analytic"
+    }
+  },
+  {
+    "name": "magneton",
+    "height": 10,
+    "_id": 125,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "abilities": {
+      "ability1": "magnet-pull",
+      "ability2": "sturdy",
+      "ability3": "analytic"
+    }
+  },
+  {
+    "name": "farfetchd",
+    "height": 8,
+    "_id": 127,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "inner-focus",
+      "ability3": "defiant"
+    }
+  },
+  {
+    "name": "doduo",
+    "height": 14,
+    "_id": 128,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "early-bird",
+      "ability3": "tangled-feet"
+    }
+  },
+  {
+    "name": "dodrio",
+    "height": 18,
+    "_id": 129,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "early-bird",
+      "ability3": "tangled-feet"
+    }
+  },
+  {
+    "name": "seel",
+    "height": 11,
+    "_id": 130,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "abilities": {
+      "ability1": "thick-fat",
+      "ability2": "hydration",
+      "ability3": "ice-body"
+    }
+  },
+  {
+    "name": "dewgong",
+    "height": 17,
+    "_id": 131,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+    "abilities": {
+      "ability1": "thick-fat",
+      "ability2": "hydration",
+      "ability3": "ice-body"
+    }
+  },
+  {
+    "name": "grimer",
+    "height": 9,
+    "_id": 132,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "abilities": {
+      "ability1": "stench",
+      "ability2": "sticky-hold",
+      "ability3": "poison-touch"
+    }
+  },
+  {
+    "name": "muk",
+    "height": 12,
+    "_id": 134,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+    "abilities": {
+      "ability1": "stench",
+      "ability2": "sticky-hold",
+      "ability3": "poison-touch"
+    }
+  },
+  {
+    "name": "shellder",
+    "height": 3,
+    "_id": 136,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "abilities": {
+      "ability1": "shell-armor",
+      "ability2": "skill-link",
+      "ability3": "overcoat"
+    }
+  },
+  {
+    "name": "cloyster",
+    "height": 15,
+    "_id": 137,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+    "abilities": {
+      "ability1": "shell-armor",
+      "ability2": "skill-link",
+      "ability3": "overcoat"
+    }
+  },
+  {
+    "name": "gastly",
+    "height": 13,
+    "_id": 138,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "abilities": {
+      "ability1": "levitate"
+    }
+  },
+  {
+    "name": "haunter",
+    "height": 16,
+    "_id": 139,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "abilities": {
+      "ability1": "levitate"
+    }
+  },
+  {
+    "name": "gengar",
+    "height": 15,
+    "_id": 140,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "abilities": {
+      "ability1": "cursed-body"
+    }
+  },
+  {
+    "name": "onix",
+    "height": 88,
+    "_id": 142,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "sturdy",
+      "ability3": "weak-armor"
+    }
+  },
+  {
+    "name": "drowzee",
+    "height": 10,
+    "_id": 145,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "abilities": {
+      "ability1": "insomnia",
+      "ability2": "forewarn",
+      "ability3": "inner-focus"
+    }
+  },
+  {
+    "name": "hypno",
+    "height": 16,
+    "_id": 146,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+    "abilities": {
+      "ability1": "insomnia",
+      "ability2": "forewarn",
+      "ability3": "inner-focus"
+    }
+  },
+  {
+    "name": "krabby",
+    "height": 4,
+    "_id": 147,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+    "abilities": {
+      "ability1": "hyper-cutter",
+      "ability2": "shell-armor",
+      "ability3": "sheer-force"
+    }
+  },
+  {
+    "name": "kingler",
+    "height": 13,
+    "_id": 148,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+    "abilities": {
+      "ability1": "hyper-cutter",
+      "ability2": "shell-armor",
+      "ability3": "sheer-force"
+    }
+  },
+  {
+    "name": "voltorb",
+    "height": 5,
+    "_id": 149,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "abilities": {
+      "ability1": "soundproof",
+      "ability2": "static",
+      "ability3": "aftermath"
+    }
+  },
+  {
+    "name": "electrode",
+    "height": 12,
+    "_id": 150,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+    "abilities": {
+      "ability1": "soundproof",
+      "ability2": "static",
+      "ability3": "aftermath"
+    }
+  },
+  {
+    "name": "exeggcute",
+    "height": 4,
+    "_id": 151,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "harvest"
+    }
+  },
+  {
+    "name": "exeggutor",
+    "height": 20,
+    "_id": 152,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "harvest"
+    }
+  },
+  {
+    "name": "cubone",
+    "height": 4,
+    "_id": 154,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "lightning-rod",
+      "ability3": "battle-armor"
+    }
+  },
+  {
+    "name": "marowak",
+    "height": 10,
+    "_id": 155,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "lightning-rod",
+      "ability3": "battle-armor"
+    }
+  },
+  {
+    "name": "hitmonlee",
+    "height": 15,
+    "_id": 159,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+    "abilities": {
+      "ability1": "limber",
+      "ability2": "reckless",
+      "ability3": "unburden"
+    }
+  },
+  {
+    "name": "hitmonchan",
+    "height": 14,
+    "_id": 160,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+    "abilities": {
+      "ability1": "keen-eye",
+      "ability2": "iron-fist",
+      "ability3": "inner-focus"
+    }
+  },
+  {
+    "name": "lickitung",
+    "height": 12,
+    "_id": 162,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "abilities": {
+      "ability1": "own-tempo",
+      "ability2": "oblivious",
+      "ability3": "cloud-nine"
+    }
+  },
+  {
+    "name": "koffing",
+    "height": 6,
+    "_id": 164,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+    "abilities": {
+      "ability1": "levitate"
+    }
+  },
+  {
+    "name": "weezing",
+    "height": 12,
+    "_id": 165,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+    "abilities": {
+      "ability1": "levitate"
+    }
+  },
+  {
+    "name": "rhyhorn",
+    "height": 10,
+    "_id": 166,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "abilities": {
+      "ability1": "lightning-rod",
+      "ability2": "rock-head",
+      "ability3": "reckless"
+    }
+  },
+  {
+    "name": "rhydon",
+    "height": 19,
+    "_id": 167,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "abilities": {
+      "ability1": "lightning-rod",
+      "ability2": "rock-head",
+      "ability3": "reckless"
+    }
+  },
+  {
+    "name": "chansey",
+    "height": 11,
+    "_id": 170,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+    "abilities": {
+      "ability1": "natural-cure",
+      "ability2": "serene-grace",
+      "ability3": "healer"
+    }
+  },
+  {
+    "name": "tangela",
+    "height": 10,
+    "_id": 172,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "abilities": {
+      "ability1": "chlorophyll",
+      "ability2": "leaf-guard",
+      "ability3": "regenerator"
+    }
+  },
+  {
+    "name": "kangaskhan",
+    "height": 22,
+    "_id": 174,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+    "abilities": {
+      "ability1": "early-bird",
+      "ability2": "scrappy",
+      "ability3": "inner-focus"
+    }
+  },
+  {
+    "name": "horsea",
+    "height": 4,
+    "_id": 176,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "sniper",
+      "ability3": "damp"
+    }
+  },
+  {
+    "name": "seadra",
+    "height": 12,
+    "_id": 177,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+    "abilities": {
+      "ability1": "poison-point",
+      "ability2": "sniper",
+      "ability3": "damp"
+    }
+  },
+  {
+    "name": "goldeen",
+    "height": 6,
+    "_id": 179,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "water-veil",
+      "ability3": "lightning-rod"
+    }
+  },
+  {
+    "name": "seaking",
+    "height": 13,
+    "_id": 180,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "water-veil",
+      "ability3": "lightning-rod"
+    }
+  },
+  {
+    "name": "staryu",
+    "height": 8,
+    "_id": 181,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+    "abilities": {
+      "ability1": "illuminate",
+      "ability2": "natural-cure",
+      "ability3": "analytic"
+    }
+  },
+  {
+    "name": "starmie",
+    "height": 11,
+    "_id": 182,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "abilities": {
+      "ability1": "illuminate",
+      "ability2": "natural-cure",
+      "ability3": "analytic"
+    }
+  },
+  {
+    "name": "mr-mime",
+    "height": 13,
+    "_id": 184,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "abilities": {
+      "ability1": "soundproof",
+      "ability2": "filter",
+      "ability3": "technician"
+    }
+  },
+  {
+    "name": "scyther",
+    "height": 15,
+    "_id": 185,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "abilities": {
+      "ability1": "swarm",
+      "ability2": "technician",
+      "ability3": "steadfast"
+    }
+  },
+  {
+    "name": "jynx",
+    "height": 14,
+    "_id": 189,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+    "abilities": {
+      "ability1": "oblivious",
+      "ability2": "forewarn",
+      "ability3": "dry-skin"
+    }
+  },
+  {
+    "name": "electabuzz",
+    "height": 11,
+    "_id": 191,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+    "abilities": {
+      "ability1": "static",
+      "ability2": "vital-spirit"
+    }
+  },
+  {
+    "name": "magmar",
+    "height": 13,
+    "_id": 194,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "abilities": {
+      "ability1": "flame-body",
+      "ability2": "vital-spirit"
+    }
+  },
+  {
+    "name": "pinsir",
+    "height": 15,
+    "_id": 196,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+    "abilities": {
+      "ability1": "hyper-cutter",
+      "ability2": "mold-breaker",
+      "ability3": "moxie"
+    }
+  },
+  {
+    "name": "tauros",
+    "height": 14,
+    "_id": 198,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+    "abilities": {
+      "ability1": "intimidate",
+      "ability2": "anger-point",
+      "ability3": "sheer-force"
+    }
+  },
+  {
+    "name": "magikarp",
+    "height": 9,
+    "_id": 199,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "rattled"
+    }
+  },
+  {
+    "name": "gyarados",
+    "height": 65,
+    "_id": 200,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+    "abilities": {
+      "ability1": "intimidate",
+      "ability2": "moxie"
+    }
+  },
+  {
+    "name": "lapras",
+    "height": 25,
+    "_id": 202,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "abilities": {
+      "ability1": "water-absorb",
+      "ability2": "shell-armor",
+      "ability3": "hydration"
+    }
+  },
+  {
+    "name": "ditto",
+    "height": 3,
+    "_id": 203,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+    "abilities": {
+      "ability1": "limber",
+      "ability2": "imposter"
+    }
+  },
+  {
+    "name": "eevee",
+    "height": 3,
+    "_id": 204,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "abilities": {
+      "ability1": "run-away",
+      "ability2": "adaptability",
+      "ability3": "anticipation"
+    }
+  },
+  {
+    "name": "vaporeon",
+    "height": 10,
+    "_id": 205,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "abilities": {
+      "ability1": "water-absorb",
+      "ability2": "hydration"
+    }
+  },
+  {
+    "name": "jolteon",
+    "height": 8,
+    "_id": 206,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "abilities": {
+      "ability1": "volt-absorb",
+      "ability2": "quick-feet"
+    }
+  },
+  {
+    "name": "flareon",
+    "height": 9,
+    "_id": 207,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+    "abilities": {
+      "ability1": "flash-fire",
+      "ability2": "guts"
+    }
+  },
+  {
+    "name": "porygon",
+    "height": 8,
+    "_id": 213,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "abilities": {
+      "ability1": "trace",
+      "ability2": "download",
+      "ability3": "analytic"
+    }
+  },
+  {
+    "name": "omanyte",
+    "height": 4,
+    "_id": 216,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "shell-armor",
+      "ability3": "weak-armor"
+    }
+  },
+  {
+    "name": "omastar",
+    "height": 10,
+    "_id": 217,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "shell-armor",
+      "ability3": "weak-armor"
+    }
+  },
+  {
+    "name": "kabuto",
+    "height": 5,
+    "_id": 218,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "battle-armor",
+      "ability3": "weak-armor"
+    }
+  },
+  {
+    "name": "kabutops",
+    "height": 13,
+    "_id": 219,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+    "abilities": {
+      "ability1": "swift-swim",
+      "ability2": "battle-armor",
+      "ability3": "weak-armor"
+    }
+  },
+  {
+    "name": "aerodactyl",
+    "height": 18,
+    "_id": 220,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "abilities": {
+      "ability1": "rock-head",
+      "ability2": "pressure",
+      "ability3": "unnerve"
+    }
+  },
+  {
+    "name": "snorlax",
+    "height": 21,
+    "_id": 223,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "abilities": {
+      "ability1": "immunity",
+      "ability2": "thick-fat",
+      "ability3": "gluttony"
+    }
+  },
+  {
+    "name": "articuno",
+    "height": 17,
+    "_id": 224,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+    "abilities": {
+      "ability1": "pressure",
+      "ability2": "snow-cloak"
+    }
+  },
+  {
+    "name": "zapdos",
+    "height": 16,
+    "_id": 225,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "abilities": {
+      "ability1": "pressure",
+      "ability2": "static"
+    }
+  },
+  {
+    "name": "moltres",
+    "height": 20,
+    "_id": 226,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+    "abilities": {
+      "ability1": "pressure",
+      "ability2": "flame-body"
+    }
+  },
+  {
+    "name": "dratini",
+    "height": 18,
+    "_id": 227,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "abilities": {
+      "ability1": "shed-skin",
+      "ability2": "marvel-scale"
+    }
+  },
+  {
+    "name": "dragonair",
+    "height": 40,
+    "_id": 228,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "abilities": {
+      "ability1": "shed-skin",
+      "ability2": "marvel-scale"
+    }
+  },
+  {
+    "name": "dragonite",
+    "height": 22,
+    "_id": 229,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "abilities": {
+      "ability1": "inner-focus",
+      "ability2": "multiscale"
+    }
+  },
+  {
+    "name": "mewtwo",
+    "height": 20,
+    "_id": 230,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "abilities": {
+      "ability1": "pressure",
+      "ability2": "unnerve"
+    }
+  },
+  {
+    "name": "mew",
+    "height": 4,
+    "_id": 233,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "abilities": {
+      "ability1": "synchronize"
+    }
+  }
+]
