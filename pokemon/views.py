@@ -7,7 +7,7 @@ from .models import Ability, Pokemon
 # View to display home page with all pokemon and images
 def pokemon(request):
     template = 'pokemon/home.html'
-    pokemon = Pokemon.objects.all()
+    pokemon = Pokemon.objects.all().order_by('height')
     abilities = Ability.objects.all()
     query = None
     ability = None
