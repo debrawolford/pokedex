@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Ability(models.Model):
     class Meta:
         verbose_name_plural = 'Abilities'
@@ -21,5 +20,5 @@ class Pokemon(models.Model):
     ability3 = models.CharField(max_length=200, null=True, blank=True)
     ability4 = models.CharField(max_length=200, null=True, blank=True)
 
-def __str__(self):
+    def __str__(self):
         return self.name
