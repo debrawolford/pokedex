@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.http import HttpResponse
 from .models import Ability, Pokemon
+from django.db.models import Q
 
 import json
 import requests
@@ -47,23 +48,8 @@ def pokemon_details(request, pokemon_id):
 def abilities(request):
     template = 'pokemon/abilities.html'
     abilities = Ability.objects.all()
-    query = None
-    if request.GET:
-        if 'q' in request.GET:
-            query = request.GET['q']
-            if not query:
-                messages.error(request, ("Please enter what you are"
-                                         " looking for."))
-                return redirect(reverse('pokemon'))
-
-            queries = (
-                Q(name__icontains=query)
-            )
-            abilities = abilities.filter(queries)
-
-
+    
     context = {
         'abilities': abilities,
-        'search': query,
     }
     return render(request, template, context)
