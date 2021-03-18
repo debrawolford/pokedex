@@ -1,32 +1,7 @@
 {% extends "pokemon/base.html" %} {% block content %}
 <!--Main Content-->
 <div class="container-fluid">
-  <!-- Start of Ability buttons -->
-  <div class="row">
-    <div class="col text-center mt-4">
-      {% if not current_ability %}
-      <h1>Pokemon</h1>
-      <p>
-        {% for ability in abilities %}
-        <a
-          class="mx-1 my-1 btn btn-sm btn-light capitalize"
-          href="{% url 'pokemon' %}?ability={{ ability.name }}"
-          >{{ ability.name }}</a
-        >
-        {% endfor %}
-      </p>
-      {% else %} {% for ability in current_abiltity %}
-      <h1 class="capitalize">{{ ability.name }}</h1>
-      <p>
-        <a href="{% url 'pokemon' %}" class="btn btn-sm btn-light"
-          >View All Pokemon</a
-        >
-      </p>
-      {% endfor %} {% endif %}
-      <hr />
-    </div>
-  </div>
-  <!--End of Ability buttons-->
+  <h1 class="text-center">Pokemon</h1>
   <!-- Start of number for search results-->
   <div class="row">
     <div class="col text-left">

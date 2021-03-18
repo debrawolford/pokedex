@@ -1,0 +1,30 @@
+{% extends "pokemon/base.html" %} {% block content %}
+<!--Main Content-->
+<div class="container-fluid">
+    <h1 class="text-center">Abilities</h1>
+  <!-- Start of number for search results-->
+  <div class="row">
+    <div class="col text-left">
+      <p class="text-muted">
+        {{ abilities|length }} Abilities{% if search %} found for
+        <strong>"{{ search }}"</strong>
+        <br />
+        <a class="btn btn-sm btn-light" href="{% url 'abilities' %}"
+          ><i class="fas fa-arrow-circle-left"></i> Back To All Abilities</a
+        >
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  <!--End of number for search results-->
+  <!--Start of Abilities list-->
+  <div class="row justify-content-center">
+    <ol>
+        {% for ability in abilities %}
+        <li>{{ ability.name }}</li>
+        {% endfor %}
+    </ol>
+  </div>
+  <!--End of Abilities List-->
+</div>
+{% endblock %}

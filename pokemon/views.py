@@ -8,15 +8,8 @@ from .models import Ability, Pokemon
 def pokemon(request):
     template = 'pokemon/home.html'
     pokemon = Pokemon.objects.all().order_by('height')
-    abilities = Ability.objects.all()
     query = None
-    ability = None
     if request.GET:
-        if 'ability' in request.GET:
-            ability = request.GET['ability'].split()
-            pokemon = pokemon.filter(ability__name__in=ability)
-            ability = Ability.objects.filter(name__in=ability)
-
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -32,9 +25,7 @@ def pokemon(request):
 
     context = {
         'pokemon': pokemon,
-        'abilities': abilities,
         'search': query,
-        'current_ability': ability
     }
     return render(request, template, context)
 
@@ -48,4 +39,29 @@ def pokemon_details(request, pokemon_id):
         'pokemon': pokemon,
     }
 
+    return render(request, template, context)
+
+# View to display all abilities
+def abilities(request):
+    template = 'pokemon/abilities.html'
+    abilities = Ability.objects.all()
+    query = None
+    if request.GET:
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(request, ("Please enter what you are"
+                                         " looking for."))
+                return redirect(reverse('pokemon'))
+
+            queries = (
+                Q(name__icontains=query)
+            )
+            abilities = abilities.filter(queries)
+
+
+    context = {
+        'abilities': abilities,
+        'search': query,
+    }
     return render(request, template, context)
