@@ -19,11 +19,11 @@
   <!--End of number for search results-->
   <!--Start of Abilities list-->
   <div class="row justify-content-center">
-    <ol>
+    <p>
         {% for ability in abilities %}
-        <li>{{ ability.name }}</li>
+        {{ ability.id }}. {{ ability.name }}<br>
         {% endfor %}
-    </ol>
+    </p>
   </div>
   <!--End of Abilities List-->
 </div>

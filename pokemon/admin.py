@@ -4,8 +4,10 @@ from .models import Pokemon, Ability
 class AbilityAdmin(admin.ModelAdmin):
     list_display = (
         "name",
-        "effect"
+        "_id"
     )
+
+    ordering = ("_id",)
 
 class PokemonAdmin(admin.ModelAdmin):
     list_display = (

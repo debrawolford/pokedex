@@ -5,7 +5,7 @@ class Ability(models.Model):
         verbose_name_plural = 'Abilities'
     
     name = models.CharField(max_length=254, null=False, blank=False)
-    effect = models.CharField(max_length=2000, null=True, blank=True)
+    _id = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.name
