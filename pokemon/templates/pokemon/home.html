@@ -1,106 +1,114 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Bootstrap CSS-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!--Font Awesome Icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <!--Main CSS-->
-    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
-    <title>Pokédex</title>
-  </head>
-  <body>
-    <!--Navbar-->
-    <!--Main Content-->
-    <div class="container-fluid">
-    <!-- Start of Ability buttons -->
-       <div class="row">
-           <div class="col text-center mt-4">
-               {% if not current_ability %}
-                    <h1>Pokemon</h1>
-                    <p>
-                        {% for ability in abilities %}
-                            <a class="mx-1 my-1 btn btn-sm btn-light capitalize" href="{% url 'pokemon' %}?ability={{ ability.name }}">{{ ability.name }}</a>
-                        {% endfor %}
-                    </p>
-                {% else %}
-                    {% for ability in current_abiltity %}
-                        <h1 class="capitalize">{{ ability.name }}</h1>
-                        <p><a href="{% url 'pokemon' %}" class="btn btn-sm btn-light">View All Pokemon</a></p>
-                    {% endfor %}
-                {% endif %}
-               <hr/>
-           </div>
-       </div>
-        <!--End of Ability buttons-->
-        <!-- Start of number for search results-->
-         <div class="row">
-           <div class="col text-left">
-                <p class=text-muted>
-                    {{ pokemon|length }} Pokemon{% if search %} found for <strong>"{{ search }}"</strong>
-                    <br>
-                    <a class="btn btn-sm btn-light" href="{% url 'pokemon' %}"><i class="fas fa-arrow-circle-left"></i> Back To All Pokemon</a>
-                    {% endif %}
-                </p>
-           </div>
-       </div>
-        <!--End of number for search results-->
-        <!--Start of Pokemon list-->
-           <div class="row justify-content-center">
-           {% for pokemon in pokemon %}
-              <div class="col-8 col-md-5 col-lg-3">
-                <div class="card" style="width: 18rem;">
-                  {% if pokemon.height <= 2 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-35" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 4 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-40" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 6 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-45" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 8 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-50" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 10 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-55" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 15 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-60" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 20 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-65" alt="{{ pokemon.name }}">
-                  {% elif pokemon.height <= 25 %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-70" alt="{{ pokemon.name }}">
-                  {% else %}
-                    <img src="{{ pokemon.sprite }}" class="mx-auto card-img-top w-75" alt="{{ pokemon.name }}">
-                  {% endif %}
-                  <div class="card-body">
-                    <h5 class="card-title capitalize text-center">{{ pokemon.name }}</h5>
-                  </div>
-                </div>
-              </div>
-           {% endfor %}
-       </div>
-    <!--End of Pokemon List-->
-    <!--Bootstrap JS-->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+{% extends "pokemon/base.html" %} {% block content %}
+<!--Main Content-->
+<div class="container-fluid">
+  <!-- Start of Ability buttons -->
+  <div class="row">
+    <div class="col text-center mt-4">
+      {% if not current_ability %}
+      <h1>Pokemon</h1>
+      <p>
+        {% for ability in abilities %}
+        <a
+          class="mx-1 my-1 btn btn-sm btn-light capitalize"
+          href="{% url 'pokemon' %}?ability={{ ability.name }}"
+          >{{ ability.name }}</a
+        >
+        {% endfor %}
+      </p>
+      {% else %} {% for ability in current_abiltity %}
+      <h1 class="capitalize">{{ ability.name }}</h1>
+      <p>
+        <a href="{% url 'pokemon' %}" class="btn btn-sm btn-light"
+          >View All Pokemon</a
+        >
+      </p>
+      {% endfor %} {% endif %}
+      <hr />
+    </div>
+  </div>
+  <!--End of Ability buttons-->
+  <!-- Start of number for search results-->
+  <div class="row">
+    <div class="col text-left">
+      <p class="text-muted">
+        {{ pokemon|length }} Pokemon{% if search %} found for
+        <strong>"{{ search }}"</strong>
+        <br />
+        <a class="btn btn-sm btn-light" href="{% url 'pokemon' %}"
+          ><i class="fas fa-arrow-circle-left"></i> Back To All Pokemon</a
+        >
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  <!--End of number for search results-->
+  <!--Start of Pokemon list-->
+  <div class="row justify-content-center">
+    {% for pokemon in pokemon %}
+    <div class="col-8 col-md-5 col-lg-3">
+      <div class="card" style="width: 18rem">
+        {% if pokemon.height <= 2 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-35"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 4 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-40"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 6 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-45"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 8 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-50"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 10 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-55"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 15 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-60"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 20 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-65"
+          alt="{{ pokemon.name }}"
+        />
+        {% elif pokemon.height <= 25 %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-70"
+          alt="{{ pokemon.name }}"
+        />
+        {% else %}
+        <img
+          src="{{ pokemon.sprite }}"
+          class="mx-auto card-img-top w-75"
+          alt="{{ pokemon.name }}"
+        />
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title capitalize text-center">{{ pokemon.name }}</h5>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!--End of Pokemon List-->
+  {% endblock %}
+</div>
