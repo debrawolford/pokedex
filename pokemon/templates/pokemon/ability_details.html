@@ -14,8 +14,34 @@
   <div class="row justify-content-center mt-3">
     <div class="col-12 text-center my-auto">
       <h3 class="capitalize">{{ ability.id }}. {{ ability.name }}</h3>
+      <hr>
+      <h4>Pokemon with this ability:</h4>
     </div>
   </div>
   <!-- End of Ability Details -->
+  <!--Start of Pokemon list-->
+  <div class="row justify-content-center">
+    {% for pokemon in pokemon %}
+    {% if pokemon.ability1 == ability.name or pokemon.ability2 == ability.name or pokemon.ability3 == ability.name or pokemon.ability4 == ability.name %}
+      <div class="col-8 col-md-5 col-lg-3 my-1">
+        <div class="card">
+          <img
+            src="{{ pokemon.sprite }}"
+            class="mx-auto card-img-top w-35"
+            alt="{{ pokemon.name }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title capitalize text-center">
+              <a href="{% url 'pokemon_details' pokemon.id %}"
+                >{{ pokemon.name }}</a
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <!--End of Pokemon List-->
 </div>
 {% endblock %}

@@ -158,5 +158,2461 @@
       "name": "own-tempo",
       "id": 20
     }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "suction-cups",
+      "id": 21
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "intimidate",
+      "id": 22
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shadow-tag",
+      "id": 23
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "rough-skin",
+      "id": 24
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "wonder-guard",
+      "id": 25
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "levitate",
+      "id": 26
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "effect-spore",
+      "id": 27
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "synchronize",
+      "id": 28
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "clear-body",
+      "id": 29
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "natural-cure",
+      "id": 30
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "lightning-rod",
+      "id": 31
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "serene-grace",
+      "id": 32
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "swift-swim",
+      "id": 33
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "chlorophyll",
+      "id": 34
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "illuminate",
+      "id": 35
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "trace",
+      "id": 36
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "huge-power",
+      "id": 37
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "poison-point",
+      "id": 38
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "inner-focus",
+      "id": 39
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "magma-armor",
+      "id": 40
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "water-veil",
+      "id": 41
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "magnet-pull",
+      "id": 42
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "soundproof",
+      "id": 43
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "rain-dish",
+      "id": 44
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sand-stream",
+      "id": 45
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pressure",
+      "id": 46
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "thick-fat",
+      "id": 47
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "early-bird",
+      "id": 48
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "flame-body",
+      "id": 49
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "run-away",
+      "id": 50
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "keen-eye",
+      "id": 51
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "hyper-cutter",
+      "id": 52
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pickup",
+      "id": 53
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "truant",
+      "id": 54
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "hustle",
+      "id": 55
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "cute-charm",
+      "id": 56
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "plus",
+      "id": 57
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "minus",
+      "id": 58
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "forecast",
+      "id": 59
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sticky-hold",
+      "id": 60
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shed-skin",
+      "id": 61
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "guts",
+      "id": 62
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "marvel-scale",
+      "id": 63
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "liquid-ooze",
+      "id": 64
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "overgrow",
+      "id": 65
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "blaze",
+      "id": 66
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "torrent",
+      "id": 67
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "swarm",
+      "id": 68
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "rock-head",
+      "id": 69
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "drought",
+      "id": 70
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "arena-trap",
+      "id": 71
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "vital-spirit",
+      "id": 72
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "white-smoke",
+      "id": 73
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pure-power",
+      "id": 74
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shell-armor",
+      "id": 75
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "air-lock",
+      "id": 76
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "tangled-feet",
+      "id": 77
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "motor-drive",
+      "id": 78
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "rivalry",
+      "id": 79
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "steadfast",
+      "id": 80
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "snow-cloak",
+      "id": 81
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "gluttony",
+      "id": 82
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "anger-point",
+      "id": 83
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "unburden",
+      "id": 84
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "heatproof",
+      "id": 85
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "simple",
+      "id": 86
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dry-skin",
+      "id": 87
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "download",
+      "id": 88
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "iron-fist",
+      "id": 89
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "poison-heal",
+      "id": 90
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "adaptability",
+      "id": 91
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "skill-link",
+      "id": 92
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "hydration",
+      "id": 93
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "solar-power",
+      "id": 94
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "quick-feet",
+      "id": 95
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "normalize",
+      "id": 96
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sniper",
+      "id": 97
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "magic-guard",
+      "id": 98
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "no-guard",
+      "id": 99
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "stall",
+      "id": 100
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "technician",
+      "id": 101
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "leaf-guard",
+      "id": 102
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "klutz",
+      "id": 103
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mold-breaker",
+      "id": 104
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "super-luck",
+      "id": 105
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "aftermath",
+      "id": 106
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "anticipation",
+      "id": 107
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "forewarn",
+      "id": 108
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "unaware",
+      "id": 109
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "tinted-lens",
+      "id": 110
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "filter",
+      "id": 111
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "slow-start",
+      "id": 112
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "scrappy",
+      "id": 113
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "storm-drain",
+      "id": 114
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "ice-body",
+      "id": 115
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "solid-rock",
+      "id": 116
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "snow-warning",
+      "id": 117
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "honey-gather",
+      "id": 118
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "frisk",
+      "id": 119
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "reckless",
+      "id": 120
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "multitype",
+      "id": 121
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "flower-gift",
+      "id": 122
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "bad-dreams",
+      "id": 123
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pickpocket",
+      "id": 124
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sheer-force",
+      "id": 125
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "contrary",
+      "id": 126
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "unnerve",
+      "id": 127
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "defiant",
+      "id": 128
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "defeatist",
+      "id": 129
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "cursed-body",
+      "id": 130
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "healer",
+      "id": 131
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "friend-guard",
+      "id": 132
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "weak-armor",
+      "id": 133
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "heavy-metal",
+      "id": 134
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "light-metal",
+      "id": 135
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "multiscale",
+      "id": 136
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "toxic-boost",
+      "id": 137
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "flare-boost",
+      "id": 138
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "harvest",
+      "id": 139
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "telepathy",
+      "id": 140
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "moody",
+      "id": 141
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "overcoat",
+      "id": 142
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "poison-touch",
+      "id": 143
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "regenerator",
+      "id": 144
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "big-pecks",
+      "id": 145
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sand-rush",
+      "id": 146
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "wonder-skin",
+      "id": 147
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "analytic",
+      "id": 148
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "illusion",
+      "id": 149
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "imposter",
+      "id": 150
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "infiltrator",
+      "id": 151
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mummy",
+      "id": 152
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "moxie",
+      "id": 153
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "justified",
+      "id": 154
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "rattled",
+      "id": 155
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "magic-bounce",
+      "id": 156
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sap-sipper",
+      "id": 157
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "prankster",
+      "id": 158
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sand-force",
+      "id": 159
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "iron-barbs",
+      "id": 160
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "zen-mode",
+      "id": 161
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "victory-star",
+      "id": 162
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "turboblaze",
+      "id": 163
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "teravolt",
+      "id": 164
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "aroma-veil",
+      "id": 165
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "flower-veil",
+      "id": 166
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "cheek-pouch",
+      "id": 167
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "protean",
+      "id": 168
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "fur-coat",
+      "id": 169
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "magician",
+      "id": 170
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "bulletproof",
+      "id": 171
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "competitive",
+      "id": 172
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "strong-jaw",
+      "id": 173
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "refrigerate",
+      "id": 174
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sweet-veil",
+      "id": 175
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "stance-change",
+      "id": 176
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "gale-wings",
+      "id": 177
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mega-launcher",
+      "id": 178
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "grass-pelt",
+      "id": 179
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "symbiosis",
+      "id": 180
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "tough-claws",
+      "id": 181
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pixilate",
+      "id": 182
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "gooey",
+      "id": 183
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "aerilate",
+      "id": 184
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "parental-bond",
+      "id": 185
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dark-aura",
+      "id": 186
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "fairy-aura",
+      "id": 187
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "aura-break",
+      "id": 188
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "primordial-sea",
+      "id": 189
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "desolate-land",
+      "id": 190
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "delta-stream",
+      "id": 191
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "stamina",
+      "id": 192
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "wimp-out",
+      "id": 193
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "emergency-exit",
+      "id": 194
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "water-compaction",
+      "id": 195
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "merciless",
+      "id": 196
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shields-down",
+      "id": 197
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "stakeout",
+      "id": 198
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "water-bubble",
+      "id": 199
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "steelworker",
+      "id": 200
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "berserk",
+      "id": 201
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "slush-rush",
+      "id": 202
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "long-reach",
+      "id": 203
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "liquid-voice",
+      "id": 204
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "triage",
+      "id": 205
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "galvanize",
+      "id": 206
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "surge-surfer",
+      "id": 207
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "schooling",
+      "id": 208
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "disguise",
+      "id": 209
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "battle-bond",
+      "id": 210
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "power-construct",
+      "id": 211
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "corrosion",
+      "id": 212
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "comatose",
+      "id": 213
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "queenly-majesty",
+      "id": 214
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "innards-out",
+      "id": 215
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dancer",
+      "id": 216
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "battery",
+      "id": 217
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "fluffy",
+      "id": 218
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dazzling",
+      "id": 219
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "soul-heart",
+      "id": 220
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "tangling-hair",
+      "id": 221
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "receiver",
+      "id": 222
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "power-of-alchemy",
+      "id": 223
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "beast-boost",
+      "id": 224
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "rks-system",
+      "id": 225
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "electric-surge",
+      "id": 226
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "psychic-surge",
+      "id": 227
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "misty-surge",
+      "id": 228
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "grassy-surge",
+      "id": 229
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "full-metal-body",
+      "id": 230
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shadow-shield",
+      "id": 231
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "prism-armor",
+      "id": 232
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "neuroforce",
+      "id": 233
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "intrepid-sword",
+      "id": 234
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dauntless-shield",
+      "id": 235
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "libero",
+      "id": 236
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "ball-fetch",
+      "id": 237
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "cotton-down",
+      "id": 238
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "propeller-tail",
+      "id": 239
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mirror-armor",
+      "id": 240
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "gulp-missile",
+      "id": 241
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "stalwart",
+      "id": 242
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "steam-engine",
+      "id": 243
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "punk-rock",
+      "id": 244
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sand-spit",
+      "id": 245
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "ice-scales",
+      "id": 246
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "ripen",
+      "id": 247
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "ice-face",
+      "id": 248
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "power-spot",
+      "id": 249
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mimicry",
+      "id": 250
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "screen-cleaner",
+      "id": 251
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "steely-spirit",
+      "id": 252
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "perish-body",
+      "id": 253
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "wandering-spirit",
+      "id": 254
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "gorilla-tactics",
+      "id": 255
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "neutralizing-gas",
+      "id": 256
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pastel-veil",
+      "id": 257
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "hunger-switch",
+      "id": 258
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "quick-draw",
+      "id": 259
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "unseen-fist",
+      "id": 260
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "curious-medicine",
+      "id": 261
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "transistor",
+      "id": 262
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dragons-maw",
+      "id": 263
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "chilling-neigh",
+      "id": 264
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "grim-neigh",
+      "id": 265
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "as-one",
+      "id": 266
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "as-one",
+      "id": 267
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mountaineer",
+      "id": 10001
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "wave-rider",
+      "id": 10002
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "skater",
+      "id": 10003
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "thrust",
+      "id": 10004
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "perception",
+      "id": 10005
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "parry",
+      "id": 10006
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "instinct",
+      "id": 10007
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "dodge",
+      "id": 10008
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "jagged-edge",
+      "id": 10009
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "frostbite",
+      "id": 10010
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "tenacity",
+      "id": 10011
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "pride",
+      "id": 10012
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "deep-sleep",
+      "id": 10013
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "power-nap",
+      "id": 10014
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "spirit",
+      "id": 10015
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "warm-blanket",
+      "id": 10016
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "gulp",
+      "id": 10017
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "herbivore",
+      "id": 10018
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sandpit",
+      "id": 10019
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "hot-blooded",
+      "id": 10020
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "medic",
+      "id": 10021
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "life-force",
+      "id": 10022
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "lunchbox",
+      "id": 10023
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "nurse",
+      "id": 10024
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "melee",
+      "id": 10025
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sponge",
+      "id": 10026
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "bodyguard",
+      "id": 10027
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "hero",
+      "id": 10028
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "last-bastion",
+      "id": 10029
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "stealth",
+      "id": 10030
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "vanguard",
+      "id": 10031
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "nomad",
+      "id": 10032
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sequence",
+      "id": 10033
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "grass-cloak",
+      "id": 10034
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "celebrate",
+      "id": 10035
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "lullaby",
+      "id": 10036
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "calming",
+      "id": 10037
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "daze",
+      "id": 10038
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "frighten",
+      "id": 10039
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "interference",
+      "id": 10040
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "mood-maker",
+      "id": 10041
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "confidence",
+      "id": 10042
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "fortune",
+      "id": 10043
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "bonanza",
+      "id": 10044
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "explode",
+      "id": 10045
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "omnipotent",
+      "id": 10046
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "share",
+      "id": 10047
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "black-hole",
+      "id": 10048
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shadow-dash",
+      "id": 10049
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "sprint",
+      "id": 10050
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "disgust",
+      "id": 10051
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "high-rise",
+      "id": 10052
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "climber",
+      "id": 10053
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "flame-boost",
+      "id": 10054
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "aqua-boost",
+      "id": 10055
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "run-up",
+      "id": 10056
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "conqueror",
+      "id": 10057
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shackle",
+      "id": 10058
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "decoy",
+      "id": 10059
+    }
+  },
+  {
+    "model": "pokemon.Ability",
+    "pk": 1,
+    "fields": {
+      "name": "shield",
+      "id": 10060
+    }
   }
 ]

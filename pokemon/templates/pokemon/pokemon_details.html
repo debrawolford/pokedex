@@ -24,16 +24,32 @@
       <h4>Height: {{ pokemon.height }}</h4>
       <h5 class="capitalize">
       {% if pokemon.ability1 %}
-      Abilities:<br />{{ pokemon.ability1 }} 
+        {% for ability in abilities %}
+          {% if ability.name == pokemon.ability1 %}
+      Abilities:<br /><a href="{% url 'ability_details' ability.id %}">{{ pokemon.ability1 }} </a> 
+          {% endif %}
+        {% endfor %}
       {% endif %} 
       {% if pokemon.ability2 %}
-      <br />{{ pokemon.ability2 }}
+        {% for ability in abilities %}
+          {% if ability.name == pokemon.ability2 %}
+            <br /><a href="{% url 'ability_details' ability.id %}">{{ pokemon.ability2 }} </a> 
+          {% endif %}
+        {% endfor %}
       {% endif %} 
       {% if pokemon.ability3 %}
-      <br />{{ pokemon.ability3 }}
+        {% for ability in abilities %}
+          {% if ability.name == pokemon.ability3 %}
+            <br /><a href="{% url 'ability_details' ability.id %}">{{ pokemon.ability3 }} </a> 
+          {% endif %}
+        {% endfor %}
       {% endif %} 
       {% if pokemon.ability4 %}
-      <br />{{ pokemon.ability4 }}
+        {% for ability in abilities %}
+          {% if ability.name == pokemon.ability4 %}
+            <br /><a href="{% url 'ability_details' ability.id %}">{{ pokemon.ability4 }} </a> 
+          {% endif %}
+        {% endfor %}
       {% endif %}
     </h5>
     </div>

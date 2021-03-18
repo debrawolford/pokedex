@@ -36,9 +36,10 @@ def pokemon(request):
 def pokemon_details(request, pokemon_id):
     template = 'pokemon/pokemon_details.html'
     pokemon = get_object_or_404(Pokemon, pk=pokemon_id)
-
+    abilities = Ability.objects.all()
     context = {
         'pokemon': pokemon,
+        'abilities': abilities
     }
 
     return render(request, template, context)
@@ -47,11 +48,29 @@ def pokemon_details(request, pokemon_id):
 def abilities(request):
     template = 'pokemon/abilities.html'
     abilities = Ability.objects.all()
-    pokemon = Pokemon.objects.all()
-    
+    for ability in abilities:
+        total_height = 0
+        total_pokemon = 0
+        pokemon = Pokemon.objects.all()
+        for pokemon in pokemon:
+            if pokemon.ability1 == ability.name:
+                total_pokemon += 1
+                total_height += pokemon.height
+            elif pokemon.ability2 == ability.name:
+                total_pokemon += 1
+                total_height += pokemon.height
+            elif pokemon.ability3 == ability.name:
+                total_pokemon += 1
+                total_height += pokemon.height
+            elif pokemon.ability4 == ability.name:
+                total_pokemon += 1
+                total_height += pokemon.height
+
     context = {
         'abilities': abilities,
-        'pokemon': pokemon
+        'pokemon': pokemon,
+        'total_height': total_height,
+        'total_pokemon': total_pokemon
     }
     return render(request, template, context)
 
@@ -59,8 +78,10 @@ def abilities(request):
 def ability_details(request, ability_id):
     template = 'pokemon/ability_details.html'
     ability = get_object_or_404(Ability, pk=ability_id)
+    pokemon = Pokemon.objects.all()
     
     context = {
         'ability': ability,
+        'pokemon': pokemon,
     }
     return render(request, template, context)
