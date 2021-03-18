@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.pokemon, name="pokemon"),
     path('abilities/', views.abilities, name="abilities"),
     path('<int:pokemon_id>/', views.pokemon_details, name='pokemon_details'),
+    path('abilities/<int:ability_id>/', views.ability_details, name='ability_details'),
 ]

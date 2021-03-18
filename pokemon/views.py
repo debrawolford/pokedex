@@ -34,7 +34,6 @@ def pokemon(request):
 
 # View to display Pokemon details
 def pokemon_details(request, pokemon_id):
-    """ Renders product details on a specific product"""
     template = 'pokemon/pokemon_details.html'
     pokemon = get_object_or_404(Pokemon, pk=pokemon_id)
 
@@ -48,8 +47,20 @@ def pokemon_details(request, pokemon_id):
 def abilities(request):
     template = 'pokemon/abilities.html'
     abilities = Ability.objects.all()
+    pokemon = Pokemon.objects.all()
     
     context = {
         'abilities': abilities,
+        'pokemon': pokemon
+    }
+    return render(request, template, context)
+
+# View to display Ability details
+def ability_details(request, ability_id):
+    template = 'pokemon/ability_details.html'
+    ability = get_object_or_404(Ability, pk=ability_id)
+    
+    context = {
+        'ability': ability,
     }
     return render(request, template, context)
