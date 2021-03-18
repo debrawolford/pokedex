@@ -24,20 +24,16 @@ body {
 }
 
 /* Image sizing depending on height */
-.w-45 {
-  width: 45%;
-}
-
-.w-60 {
-  width: 60%;
-}
-
 .w-35 {
   width: 35%;
 }
 
 .w-40 {
   width: 40%;
+}
+
+.w-45 {
+  width: 45%;
 }
 
 .w-50 {
@@ -48,14 +44,18 @@ body {
   width: 55%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
 .w-70 {
   width: 70%;
 }
 
-.w-85 {
-  width: 85%;
-}
-
-.w-100 {
-  width: 100%;
+.w-75 {
+  width: 75%;
 }
