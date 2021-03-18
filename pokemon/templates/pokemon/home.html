@@ -103,12 +103,16 @@
         />
         {% endif %}
         <div class="card-body">
-          <h5 class="card-title capitalize text-center">{{ pokemon.name }}</h5>
+          <h5 class="card-title capitalize text-center">
+            <a href="{% url 'pokemon_details' pokemon.id %}"
+              >{{ pokemon.name }}</a
+            >
+          </h5>
         </div>
       </div>
     </div>
     {% endfor %}
   </div>
   <!--End of Pokemon List-->
-  {% endblock %}
 </div>
+{% endblock %}

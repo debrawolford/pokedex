@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.http import HttpResponse
 from .models import Ability, Pokemon
 
@@ -36,4 +36,16 @@ def pokemon(request):
         'search': query,
         'current_ability': ability
     }
+    return render(request, template, context)
+
+# View to display Pokemon details
+def pokemon_details(request, pokemon_id):
+    """ Renders product details on a specific product"""
+    template = 'pokemon/pokemon_details.html'
+    pokemon = get_object_or_404(Pokemon, pk=pokemon_id)
+
+    context = {
+        'pokemon': pokemon,
+    }
+
     return render(request, template, context)

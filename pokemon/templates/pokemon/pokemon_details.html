@@ -1,0 +1,41 @@
+{% extends "pokemon/base.html" %} {% block content %}
+<!--Main Content-->
+<div class="container-fluid">
+  <!-- Start of back to all Pokemon Button -->
+  <div class="row mt-3">
+    <div class="col text-left">
+      <a class="btn btn-sm btn-light" href="{% url 'pokemon' %}"
+        ><i class="fas fa-arrow-circle-left"></i> Back to all Pokemon</a
+      >
+    </div>
+  </div>
+  <!-- End of back to all Pokemon Button -->
+  <!-- Start of Pokemon Details -->
+  <div class="row justify-content-center mt-3">
+    <div class="col-8 col-md-4">
+      <img
+        class="img-fluid"
+        src="{{ pokemon.sprite }}"
+        alt="{{ pokemon.name }}"
+      />
+    </div>
+    <div class="col-12 col-md-6 text-center mt-2">
+      <h4>{{ pokemon.id }}. {{ pokemon.name }}</h4>
+      <h5>Height: {{ pokemon.height }}</h5>
+      {% if pokemon.ability1 %}
+      Abilities:<br />{{ pokemon.ability1 }} 
+      {% endif %} 
+      {% if pokemon.ability2 %}
+      <br />{{ pokemon.ability2 }}
+      {% endif %} 
+      {% if pokemon.ability3 %}
+      <br />{{ pokemon.ability3 }}
+      {% endif %} 
+      {% if pokemon.ability4 %}
+      <br />{{ pokemon.ability4 }}
+      {% endif %}
+    </div>
+  </div>
+  <!-- End of Product Details -->
+</div>
+{% endblock %}
