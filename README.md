@@ -54,8 +54,8 @@ Has a button in the top left that will take the user back to the Pokemon/Home pa
 
 ### Hopeful Future Features
 
-* Ability to count total height of all Pokemon with a certain ability
-* Ability to count total amount of Pokemon with a certain ability
+* Ability to see total height of all Pokemon with a certain ability (view with list of all data is there, but currently unable to pass data to template properly)
+* Ability to see total amount of Pokemon with a certain ability (view with list of all data is there, but currently unable to pass data to template properly)
 * Ability for the search bar to search and update results while typing
 
 ## Technologies Used

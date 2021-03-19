@@ -76,7 +76,7 @@ def abilities(request):
         'abilities': abilities,
         'pokemon': pokemon,
         'results_total_height': results_total_height,
-        'results_total_pokemon': results_total_pokemon
+        'results_total_pokemon': results_total_pokemon,
     }
     return render(request, template, context)
 
