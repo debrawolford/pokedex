@@ -26,8 +26,8 @@
               <strong>{{ ability.id }}. <a href="{% url 'ability_details' ability.id %}">{{ ability.name }}</a></strong>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"># of Pokemon with this ability: {{ total_pokemon }}</li>
-              <li class="list-group-item">Total height of all Pokemon: {{ total_height }}</li>
+              <li class="list-group-item"># of Pokemon with this ability: {{ results_total_pokemon.0 }}</li>
+              <li class="list-group-item">Total height of all Pokemon: {{ results_total_height.0 }}</li>
             </ul>
           </div>
       </div>

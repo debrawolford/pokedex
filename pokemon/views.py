@@ -50,6 +50,8 @@ def pokemon_details(request, pokemon_id):
 def abilities(request):
     template = 'pokemon/abilities.html'
     abilities = Ability.objects.all()
+    results_total_height = []
+    results_total_pokemon = []
     for ability in abilities:
         total_height = 0
         total_pokemon = 0
@@ -67,12 +69,14 @@ def abilities(request):
             elif pokemon.ability4 == ability.name:
                 total_pokemon += 1
                 total_height += pokemon.height
+        results_total_height.append(total_height)
+        results_total_pokemon.append(total_pokemon)
 
     context = {
         'abilities': abilities,
         'pokemon': pokemon,
-        'total_height': total_height,
-        'total_pokemon': total_pokemon
+        'results_total_height': results_total_height,
+        'results_total_pokemon': results_total_pokemon
     }
     return render(request, template, context)
 
