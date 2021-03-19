@@ -1,6 +1,6 @@
 # Pokédex
 
-This aplication shows all the original 151 Pokemon and their abilities. Created using the [link to https://pokeapi.co/](Pokéapi).
+This aplication shows all the original 151 Pokemon and their abilities. Created using the [PokéApi](https://pokeapi.co/).
 
 ## Features
 
@@ -54,7 +54,7 @@ Has a button in the top left that will take the user back to the Abilities page.
 
 ### API's
 
-* [link to https://pokeapi.co/](Pokéapi)
+* [PokéApi](https://pokeapi.co/)
 
 ### Languages
 
