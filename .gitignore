@@ -4,3 +4,4 @@ __pychache__
 env2
 .vscode
 *.DS_STORE
+env.py
