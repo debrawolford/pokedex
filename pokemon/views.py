@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
 from django.http import HttpResponse
 from .models import Ability, Pokemon
 from django.db.models import Q
+from .forms import PokemonForm
 
 import json
 import requests
@@ -84,4 +86,24 @@ def ability_details(request, ability_id):
         'ability': ability,
         'pokemon': pokemon,
     }
+    return render(request, template, context)
+
+# View to create a new Pokemon
+def add_pokemon(request):
+    if request.method == 'POST':
+        form = PokemonForm(request.POST, request.FILES)
+        if form.is_valid():
+            pokemon = form.save()
+            return redirect(reverse('pokemon_details', args=[pokemon.id]))
+        else:
+            messages.error(request, ("Failed to add the new Pokemon,"))
+    else:
+        form = PokemonForm()
+
+    template = 'pokemon/add_pokemon.html'
+    context = {
+        'form': form,
+        'add_pokemon': True,
+    }
+
     return render(request, template, context)

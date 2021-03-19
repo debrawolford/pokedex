@@ -38,6 +38,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'abilities' %}">Abilities</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'add_pokemon' %}">Create Pokemon</a>
+              </li>
             </ul>
             <form method="GET" action="{% url 'pokemon' %}" class="form-inline">
                 <input type="text" id="search" class="form-control" type="text" name="q" placeholder="Search Name...">

@@ -28,10 +28,9 @@ TEMPLATE_DIRS = (
 SECRET_KEY = os.environ.get('SECRET_KEY', '2!)#^^l1=97-hi)09vx$j$n(_ozg^-j70wgjw@iprfjvngif78')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
 ]
 
 
@@ -46,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -60,6 +60,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'pokedex.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -72,13 +74,17 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
 
 WSGI_APPLICATION = 'pokedex.wsgi.application'
 
-
+SITE_ID=1
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
