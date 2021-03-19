@@ -44,6 +44,14 @@ Shows all the Pokemon (if any) with this ability.
 
 Has a button in the top left that will take the user back to the Abilities page.
 
+#### Add Pokemon Page
+![Add Pokemon Page](media/add-pokemon.png)
+
+A form that allows the user to create a new Pokemon and it to the database. 
+
+Has a button in the top left that will take the user back to the Pokemon/Home page.
+
+
 ### Hopeful Future Features
 
 * Ability to count total height of all Pokemon with a certain ability
